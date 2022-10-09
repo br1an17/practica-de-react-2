@@ -7,7 +7,7 @@ import  {TareaContextoProvider} from "./context/Contexto.jsx"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <TareaContextoProvider>
-    <App />
+    <App  />
     </TareaContextoProvider>
   </React.StrictMode>
 )

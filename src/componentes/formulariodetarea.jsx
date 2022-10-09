@@ -20,7 +20,7 @@ const {crearTarea} = useContext(TareaContexto)
   };
 
   return (
-   <div className="max-w-md mx-auto"  >
+   <div className=" max-w-md mx-auto"  >
       <form onSubmit={handleSubmit} className="bg bg-slate-600 p-10 mb-4">
         <input
           placeholder="escribi tu tarea"

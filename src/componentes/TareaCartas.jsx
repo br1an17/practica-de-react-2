@@ -6,7 +6,7 @@ import {TareaContexto } from "../context/Contexto";
 
   return (
     
-    <div className="bg-gray-800  text-white p-4 rounded-md">
+    <div className="bg-gray-800   text-white p-4 rounded-md">
         <h1 className="text-xl font-bold capitalize">{tarea.titulo}</h1>
         <p className="text-gray-500 text-sm">{tarea.descripcion}</p>
         <button className="bg-red-500 px-2 py-1 rounded-md mt-4 hover:bg-orange-400" onClick={()=>borrarTarea(tarea.id)}

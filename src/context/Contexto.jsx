@@ -11,7 +11,7 @@ export function TareaContextoProvider(props) {
     setTareas([
       ...tareas,
       {
-        titulo: tarea.valor,
+        titulo:tarea.valor,
         id: tareas.length,
         descripcion: tarea.escribir,
       },

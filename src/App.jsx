@@ -10,7 +10,7 @@ function App() {
     <div className="bg-zing-900 h-screen">
       <div
       className="container mx-auto p p-10">
-      <Formulariodetarea />
+      <Formulariodetarea  />
       <TaskList />
     </div>
     </div>

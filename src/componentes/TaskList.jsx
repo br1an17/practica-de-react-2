@@ -9,7 +9,7 @@ function TaskList() {
   const {tareas} =useContext(TareaContexto)
 
 if(tareas.length===0)
-return <h1>NO HAY Tareas</h1>
+return <h1> NO HAY Tareas</h1>
 
   return (
     <div className='grid grid-cols-4  gap-3 ' >
